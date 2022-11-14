@@ -13,8 +13,8 @@ public class Error {
     }
 
     public static void main(String[] args) {
-        Error comp = new Error(false,1,"No problem");
-        Error error = new Error(true,450,"Ошибка");
+        Error comp = new Error(false, 1, "No problem");
+        Error error = new Error(true, 450, "Ошибка");
         comp.printInfo();
         error.printInfo();
     }
