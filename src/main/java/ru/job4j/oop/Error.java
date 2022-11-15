@@ -6,6 +6,9 @@ public class Error {
     private int status;
     private String message;
 
+    public Error() {
+    }
+
     public Error(boolean active, int status, String message) {
         this.active = active;
         this.status = status;
@@ -13,8 +16,10 @@ public class Error {
     }
 
     public static void main(String[] args) {
+        Error empty = new Error();
         Error comp = new Error(false, 1, "No problem");
         Error error = new Error(true, 450, "Ошибка");
+        empty.printInfo();
         comp.printInfo();
         error.printInfo();
     }
