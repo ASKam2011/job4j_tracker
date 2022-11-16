@@ -37,6 +37,6 @@ public class Point {
         Point k = new Point(3, 0, 4);
         Point f = new Point(2, 5, 1);
         double dist3d = k.distance3d(f);
-        System.out.printf("%.3f",dist3d);
+        System.out.printf("%.3f", dist3d);
     }
 }

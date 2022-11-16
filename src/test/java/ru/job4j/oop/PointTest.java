@@ -62,7 +62,7 @@ public class PointTest {
 
     @Test
     public void when220to524then5() {
-        Point a = new Point(2, 2,0);
+        Point a = new Point(2, 2, 0);
         Point b = new Point(5, 2, 4);
         double expected = 5;
         double out = a.distance3d(b);
@@ -71,7 +71,7 @@ public class PointTest {
 
     @Test
     public void when304to251then5dot916() {
-        Point a = new Point(3, 0,4);
+        Point a = new Point(3, 0, 4);
         Point b = new Point(2, 5, 1);
         double expected = 5.916;
         double out = a.distance3d(b);
